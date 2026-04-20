@@ -1,0 +1,104 @@
+.about-container {
+  min-height: 100vh;
+  background: #f0f7f0;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #1a4a2e, #2d7a4f);
+  color: white;
+  text-align: center;
+  padding: 80px 32px 60px;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.about-tagline {
+  font-size: 1.2rem;
+  opacity: 0.85;
+  font-style: italic;
+}
+
+.about-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 60px 32px;
+}
+
+.about-section {
+  margin-bottom: 48px;
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  color: #1a4a2e;
+  margin-bottom: 16px;
+  border-left: 4px solid #4caf50;
+  padding-left: 16px;
+}
+
+.about-section p {
+  color: #444;
+  line-height: 1.9;
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+
+.about-values {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.value-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  transition: transform 0.2s;
+}
+
+.value-card:hover { transform: translateY(-4px); }
+
+.value-card span {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.value-card h3 {
+  color: #1a4a2e;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.value-card p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.about-founder strong { color: #2d7a4f; }
+
+.back-btn {
+  background: #2d7a4f;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.back-btn:hover {
+  background: #1a4a2e;
+  transform: translateY(-2px);
+}
